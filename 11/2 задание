@@ -1,0 +1,6 @@
+print("\n=== Задача 2 ===")
+for bulls in range(0, 11):          # макс 10 быков
+    for cows in range(0, 21):       # макс 20 коров
+        for calves in range(0, 201):# макс 200 телят
+            if bulls * 10 + cows * 5 + calves * 0.5 == 100:
+                print(f"Быков: {bulls}, Коров: {cows}, Телят: {calves}")
